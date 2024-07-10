@@ -1,3 +1,5 @@
+document.getElementById('textInput').addEventListener('input', checkPalindrome);
+
 function checkPalindrome() {
     const textInput = document.getElementById('textInput').value;
     const cleanedText = textInput.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
